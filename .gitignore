@@ -1,0 +1,6 @@
+/Library/PackageCache/*
+/Library/ShaderCache/*
+/Library/StateeCache/*
+/Library/TempArtifacts/*
+/Library/Artifacts/*
+/Library/Bee/*
