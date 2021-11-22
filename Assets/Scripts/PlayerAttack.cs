@@ -5,6 +5,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float attackCooldown;
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject[] fireballs;
+    [SerializeField] private AudioClip fireballSound;
 
     private Animator anim;
     private PlayerMovement playerMovement;
@@ -18,9 +19,10 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space) && cooldownTimer > attackCooldown && playerMovement.canAttack())
-            Attack();
-
+        if (Input.GetKey(KeyCode.Space) && cooldownTimer > attackCooldown && playerMovement.canAttack()) {
+             SoundManager.instance.PlaySound(fireballSound);
+             Attack();
+        }
         cooldownTimer += Time.deltaTime;
     }
 
