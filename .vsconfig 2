@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+﻿{
+  "version": "1.0",
+  "components": [
+    "Microsoft.VisualStudio.Workload.ManagedGame"
+  ]
+}
+=======
+﻿{
+  "version": "1.0",
+  "components": [
+    "Microsoft.VisualStudio.Workload.ManagedGame"
+  ]
+}
+>>>>>>> b9881d5 (added enemy)

@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+/Library/PackageCache/*
+/Library/ShaderCache/*
+/Library/StateeCache/*
+/Library/TempArtifacts/*
+/Library/Artifacts/*
+/Library/Bee/*
+=======
+/Library/PackageCache/*
+/Library/ShaderCache/*
+/Library/StateeCache/*
+/Library/TempArtifacts/*
+/Library/Artifacts/*
+/Library/Bee/*
+>>>>>>> b9881d5 (added enemy)
