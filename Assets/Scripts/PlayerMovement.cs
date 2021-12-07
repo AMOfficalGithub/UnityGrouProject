@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private Image healthBar;
+    [SerializeField] private GameObject gameOverScreen;
 
     private Rigidbody2D body;
     private Animator anim;
@@ -20,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        gameOverScreen.SetActive(false);
     }
 
     private void Update()
@@ -97,5 +101,20 @@ public class PlayerMovement : MonoBehaviour
     public bool canAttack()
     {
         return horizontalInput == 0 && isGrounded() && !onWall();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if(collision.gameObject.tag == "Enemy") {
+            if(collision.gameObject != null) {    
+                // Do something
+                if(healthBar.fillAmount < 0.02) {
+                    gameOverScreen.SetActive(true);
+                } else {
+                    healthBar.fillAmount -= 0.33f;
+                }
+            }
+        }
     }
 }
