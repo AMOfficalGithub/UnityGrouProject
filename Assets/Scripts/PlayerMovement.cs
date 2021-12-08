@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,7 +10,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private Image healthBar;
-    [SerializeField] private GameObject gameOverScreen;
 
     private Rigidbody2D body;
     private Animator anim;
@@ -23,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
-        gameOverScreen.SetActive(false);
     }
 
     private void Update()
@@ -110,7 +109,7 @@ public class PlayerMovement : MonoBehaviour
             if(collision.gameObject != null) {    
                 // Do something
                 if(healthBar.fillAmount < 0.02) {
-                    gameOverScreen.SetActive(true);
+                    SceneManager.LoadScene("GameOver");
                 } else {
                     healthBar.fillAmount -= 0.33f;
                 }

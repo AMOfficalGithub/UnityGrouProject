@@ -282,8 +282,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   jumpSound: {fileID: 8300000, guid: 30dcbfce03fb8483da5f092ae6420450, type: 3}
-  healthBar: {fileID: 0}
-  gameOverScreen: {fileID: 1687846016}
+  healthBar: {fileID: 377020009}
 --- !u!95 &34395466
 Animator:
   serializedVersion: 4
@@ -2502,7 +2501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b22bae88678f4b519c59e42f53b1ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 0}
 --- !u!4 &1687846018
 Transform:
   m_ObjectHideFlags: 0
