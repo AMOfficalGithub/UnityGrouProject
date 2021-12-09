@@ -22,7 +22,7 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-53803
+59259
 Successfully changed project path to: /Users/jared/Desktop/Unity Projects/UnityGroupProject
 /Users/jared/Desktop/Unity Projects/UnityGroupProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/jared/Desktop/Unity Projects/UnityG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 126.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.3f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,74 +70,74 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.3f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56186
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002485 seconds.
+Registered in 0.001788 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 96.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.770 seconds
+- Completed reload, in  0.774 seconds
 Domain Reload Profiling:
-	ReloadAssembly (770ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (774ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (561ms)
-			LoadAssemblies (112ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (132ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (332ms)
+			SetupLoadedEditorAssemblies (338ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010407 seconds.
+Registered in 0.006049 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 118.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 115.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.423 seconds
+- Completed reload, in  5.029 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3424ms)
-		BeginReloadAssembly (217ms)
+	ReloadAssembly (5030ms)
+		BeginReloadAssembly (192ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (3074ms)
-			LoadAssemblies (124ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (4718ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (428ms)
+			SetupTypeCache (301ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (2265ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (4065ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (1984ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (3800ms)
 				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -147,13 +147,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3951 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (62.3 MB). Loaded Objects now: 4407.
-Memory consumption went from 326.0 MB to 263.7 MB.
-Total: 6.703813 ms (FindLiveObjects: 0.567827 ms CreateObjectMapping: 0.249679 ms MarkObjects: 5.809400 ms  DeleteObjects: 0.075970 ms)
+Unloading 3995 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (43.2 KB). Loaded Objects now: 4451.
+Memory consumption went from 328.0 MB to 328.0 MB.
+Total: 4.607308 ms (FindLiveObjects: 0.409017 ms CreateObjectMapping: 0.386916 ms MarkObjects: 3.715345 ms  DeleteObjects: 0.094998 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,206 +167,404 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 53675.218846 seconds.
-  path: Assets/Levels/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa9e72bf726397acf14e140e41e329d') in 0.017175 seconds 
+  Time since last request: 86752.244690 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene 3.mat
+  artifactKey: Guid(006929098be67477fa3c36b78051a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene 3.mat using Guid(006929098be67477fa3c36b78051a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185cad1b5351fdf6b2f60db9a2c46a59') in 0.659870 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.555163 seconds.
-  path: Assets/Levels/GameOver.unity
-  artifactKey: Guid(52272ffa7afd34a4d9b183883b1b0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/GameOver.unity using Guid(52272ffa7afd34a4d9b183883b1b0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5474c346d558b28b79b753327ab1116') in 0.001667 seconds 
+  Time since last request: 17.533297 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton 3.ttf
+  artifactKey: Guid(ce66ec6994636405cb1119b490c6c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton 3.ttf using Guid(ce66ec6994636405cb1119b490c6c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4743bc6268ebcfb998c83a3ae5adf0f3') in 1.537459 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.052773 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(7ceb42dab22e7f24dadd9b44e4e25400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(7ceb42dab22e7f24dadd9b44e4e25400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7848bd7f73b02e604dbcef01304e8619') in 0.139124 seconds 
+  Time since last request: 0.000093 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1326871b83390b3fc0e44c1b9c53b8') in 0.025563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2e154f3cdfae2bdf3450ae4cba983b') in 1.388536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.008589 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+  artifactKey: Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs using Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86564df28ce02248a45fd4cbcafcef8') in 0.136739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.580617 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03 3.cs
+  artifactKey: Guid(cc3ef6621ce6d4544bf68fd63feb494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03 3.cs using Guid(cc3ef6621ce6d4544bf68fd63feb494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4311c6e6cb5ad414c467eb73803b8d88') in 0.001646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.504492 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+  artifactKey: Guid(a73109742c8d47ac822895a473300c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs using Guid(a73109742c8d47ac822895a473300c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283044db9d0fd47f1648089e5165857b') in 0.001700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.613119 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04 3.cs
+  artifactKey: Guid(c9401a2d87ddf49fe9e2edf6b7465c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04 3.cs using Guid(c9401a2d87ddf49fe9e2edf6b7465c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ab9122cebd2ba5b021c03babf41c4f') in 0.001802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.264499 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd270bbeb743801c111b1ad313fbaf347') in 0.001563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.852107 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController 3.cs
+  artifactKey: Guid(74c46d0012e914cbf843a3269eb004b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController 3.cs using Guid(74c46d0012e914cbf843a3269eb004b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8cd4059427f53de746f0c25bf3ecd8') in 0.001585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.847145 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+  artifactKey: Guid(2d687537154440a3913a9a3c7977978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs using Guid(2d687537154440a3913a9a3c7977978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24242c6467a8b668f8ba225da85cc88') in 0.001495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.203904 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController 3.cs
+  artifactKey: Guid(63b7ab490712242b0a6467394ff13959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController 3.cs using Guid(63b7ab490712242b0a6467394ff13959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9723b659beec7ed50482fa6a54877776') in 0.001650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.229289 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+  artifactKey: Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs using Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e1f97a26684a44fd43865215e4791a') in 0.001950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.303954 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample 3.cs
+  artifactKey: Guid(442079c5f72694d9890abd7d82e23615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample 3.cs using Guid(442079c5f72694d9890abd7d82e23615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659b062092c6eda40701c43f3bf74a58') in 0.001635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.824754 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+  artifactKey: Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs using Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51199ebe41c7619e4c598ccd2968ef74') in 0.001599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.006025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator 3.cs
+  artifactKey: Guid(463d3512df35c4a6da5400788055c1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator 3.cs using Guid(463d3512df35c4a6da5400788055c1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80d352a5172a3bc4f700f4d61c4f0e1') in 0.001623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.558486 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+  artifactKey: Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs using Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3addc7843d3b1e832c6211f75a0a9dc4') in 0.001558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.923492 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin 3.cs
+  artifactKey: Guid(9bfc80c9eaaa44834bd4d31f6dbe1f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin 3.cs using Guid(9bfc80c9eaaa44834bd4d31f6dbe1f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561b5fae0e0910c2c40f34b7ef4e4c85') in 0.001777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.211824 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+  artifactKey: Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs using Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437988c082d88fca09e72fbbc3f2e700') in 0.001681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.879818 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator 3.cs
+  artifactKey: Guid(98244f23708a24bee829963f9b9137ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator 3.cs using Guid(98244f23708a24bee829963f9b9137ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eaeb9e5a65dcc5e478466fcfef01c25') in 0.001642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.236073 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e6c765e3ca78a2323e5bfc17646688') in 0.001688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.977241 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript 3.cs
+  artifactKey: Guid(3d7f90d403b2b420e99e284b85a56b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript 3.cs using Guid(3d7f90d403b2b420e99e284b85a56b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c13623ea4720a0377e9656c94d6dd62') in 0.001634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.966983 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8cf686e878db847830ad6a8ff20e0d0') in 0.001584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.852931 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample 3.cs
+  artifactKey: Guid(b5bb3bd0fd08d460b9bec1dd92071fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample 3.cs using Guid(b5bb3bd0fd08d460b9bec1dd92071fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8373039d76ed7a4cc3a5010d4f9d40') in 0.001491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.937911 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+  artifactKey: Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs using Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787a0ece45dc755111ac0c00ca754687') in 0.001574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.771267 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType 3.cs
+  artifactKey: Guid(c308d2ef56e7d43a385ab15aea6391df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType 3.cs using Guid(c308d2ef56e7d43a385ab15aea6391df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79959f2b7fdc52252132f3ccabf87ff0') in 0.001593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.013757 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+  artifactKey: Guid(e32c266ee6204b21a427753cb0694c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs using Guid(e32c266ee6204b21a427753cb0694c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fe162587171d5f75d4de362aef3f96') in 0.001539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.795377 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator 3.cs
+  artifactKey: Guid(71450308a248145dd8a5224759177397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator 3.cs using Guid(71450308a248145dd8a5224759177397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98df33f2a562e2472f055aa9b2f489a') in 0.001502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.731368 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72883120cc7ff4a407b438668b957753') in 0.001518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.943217 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText 3.cs
+  artifactKey: Guid(79193c08e7b0e429ab9c7ff8cb9669d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText 3.cs using Guid(79193c08e7b0e429ab9c7ff8cb9669d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0339b60ad9460ee5d14b9280dd81f5') in 0.001735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.030965 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+  artifactKey: Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs using Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddf2ef2a90a494ad2ad2c44a2917544') in 0.001595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.932696 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner 3.cs
+  artifactKey: Guid(6912dfbf5e7a34dfe977eb6ea0fab0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner 3.cs using Guid(6912dfbf5e7a34dfe977eb6ea0fab0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac1b86c71d6198042f139d75f9db2e1') in 0.001772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.567815 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+  artifactKey: Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs using Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed626a10d94b3cc6927d67cd64bbccc9') in 0.002443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.790406 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator 3.cs
+  artifactKey: Guid(0fc274c3cc77a4119ad621d7eb002881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator 3.cs using Guid(0fc274c3cc77a4119ad621d7eb002881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960f421d7eb7400ea507bf49541a3a8d') in 0.001542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.659975 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+  artifactKey: Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs using Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d64eac7c25dc0dbc4b7d7941ebd6d3') in 0.001660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.096514 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01 3.cs
+  artifactKey: Guid(1a6e22ae49f9949ee9561051f4cff6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01 3.cs using Guid(1a6e22ae49f9949ee9561051f4cff6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae0f8205df124a31fa11b6042edcc82') in 0.001525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.816644 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+  artifactKey: Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs using Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69df2b9661206ac0886158c0361499e3') in 0.001560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.671907 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter 3.cs
+  artifactKey: Guid(6dc3a667eec494293bdb1675fe875783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter 3.cs using Guid(6dc3a667eec494293bdb1675fe875783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1fc0a9fd35de6c73ac1d2361e380a8') in 0.001604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.042705 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+  artifactKey: Guid(686ec78b56aa445795335fbadafcfaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs using Guid(686ec78b56aa445795335fbadafcfaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57faf1aabb028b60f2708de868367840') in 0.001529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.798856 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator 3.cs
+  artifactKey: Guid(892bd5833ec5e45cbbc1350a545c099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator 3.cs using Guid(892bd5833ec5e45cbbc1350a545c099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27307bcb067ea8c87333261593366b97') in 0.001699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.639318 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+  artifactKey: Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs using Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc6ddf3cdfe6e101ebd7748142acb61') in 0.001556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.843812 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck 3.cs
+  artifactKey: Guid(419c3878a54db449f9ac61cc6609462c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck 3.cs using Guid(419c3878a54db449f9ac61cc6609462c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2378c627ec0f7d27ecad25afdec55cc') in 0.001518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.381913 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+  artifactKey: Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs using Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200efa981e5e6f7ac22baccfe67df602') in 0.001680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.939465 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler 3.cs
+  artifactKey: Guid(be423564e192649e992f24032f5a20f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler 3.cs using Guid(be423564e192649e992f24032f5a20f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2247cafb3a9f64b63f2f79f00d46a49f') in 0.001870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.710329 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+  artifactKey: Guid(1312ae25639a4bae8e25ae223209cc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs using Guid(1312ae25639a4bae8e25ae223209cc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64d1c7588270f526efa19cbb1a5c66f') in 0.001553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.007933 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool 3.cs
+  artifactKey: Guid(fce33141d98084a58829827d8482d5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool 3.cs using Guid(fce33141d98084a58829827d8482d5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd29f8d690e4a40d41437fafd7bd2bf') in 0.001530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.533777 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+  artifactKey: Guid(21256c5b62f346f18640dad779911e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs using Guid(21256c5b62f346f18640dad779911e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9f4f8b2796fb8034e578c87c4b773c') in 0.001550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.292622 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A 3.cs
+  artifactKey: Guid(bfe0cbc3c06aa4ad8bd04e958fb751ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A 3.cs using Guid(bfe0cbc3c06aa4ad8bd04e958fb751ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f0593cd905c5b862a1799b2fc88d8f') in 0.001607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.658802 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+  artifactKey: Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs using Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79aa49854c952e275ddb80a3cac61025') in 0.001549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.538640 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B 3.cs
+  artifactKey: Guid(e1cf1a0eb9a4e4039b97bdf55586fe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B 3.cs using Guid(e1cf1a0eb9a4e4039b97bdf55586fe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ce7e92fa1b605f47d22e7b89da7fa5') in 0.001628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.987957 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+  artifactKey: Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs using Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fc1dc93479db0ff7d8c948664152ee') in 0.001553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.606726 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter 3.cs
+  artifactKey: Guid(44c76b02a96db4d9093b1b5c6e3cf807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter 3.cs using Guid(44c76b02a96db4d9093b1b5c6e3cf807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ff2eccf28b2bfdd9f90416adab34b0') in 0.001509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.852814 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  artifactKey: Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs using Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cc3275e3a988e1dcc829f760db6bba') in 0.001861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.364483 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay 3.cs
+  artifactKey: Guid(65f442b835fca45589f545be94f87c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay 3.cs using Guid(65f442b835fca45589f545be94f87c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4798c941fff1e97cf2043534238d9368') in 0.001612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.125508 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+  artifactKey: Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs using Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e9af3bd7c8e648a03aded01941877a') in 0.001709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.482522 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler 3.cs
+  artifactKey: Guid(cf970f91aa542414fafb39d4dab9f8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler 3.cs using Guid(cf970f91aa542414fafb39d4dab9f8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c4c1e81450a3ad7f7acddc79114595') in 0.001490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.027996 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+  artifactKey: Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs using Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78432c6fb70310aa35abdd4c25a2876e') in 0.001669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.861523 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter 3.cs
+  artifactKey: Guid(67d45158e173b4520acd3d52ff45a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter 3.cs using Guid(67d45158e173b4520acd3d52ff45a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9d05079fe6c59652473e1b9bf4ea75') in 0.001616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.626081 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+  artifactKey: Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs using Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74be5abb0ab04e10fee10011867cde02') in 0.001508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.748337 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA 3.cs
+  artifactKey: Guid(1982131117f05459d9f95f64fc8e6369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA 3.cs using Guid(1982131117f05459d9f95f64fc8e6369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d33ad7bc238b08fbf7eb0a857b81348') in 0.001826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.466291 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+  artifactKey: Guid(f7cfa58e417a46ea8889989684c2522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs using Guid(f7cfa58e417a46ea8889989684c2522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a98c533c9dce89c1748211779512f2a') in 0.001599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.739356 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB 3.cs
+  artifactKey: Guid(cda850f9844004c5889773c2e2f56c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB 3.cs using Guid(cda850f9844004c5889773c2e2f56c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6eef482ab242742c1ce6cd360a7914') in 0.001601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.925463 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+  artifactKey: Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs using Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3df0570afdf068995105f354ce6cf8c') in 0.001653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.745388 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom 3.cs
+  artifactKey: Guid(249b82d65e12a4d7a80a6dc98b87431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom 3.cs using Guid(249b82d65e12a4d7a80a6dc98b87431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c15c914863ae57a3612a20c12d2fcf3') in 0.001611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.426790 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+  artifactKey: Guid(52ec835d14bd486f900952b77698b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs using Guid(52ec835d14bd486f900952b77698b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0410a28412d39281324107b8058d66') in 0.001546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.448451 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample 3.cs
+  artifactKey: Guid(563c506a9d8074edf9f31bf42da1bde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample 3.cs using Guid(563c506a9d8074edf9f31bf42da1bde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9e747fe1935a40b224283fe33b0f76') in 0.001586 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004066 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.668 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1669ms)
-		BeginReloadAssembly (151ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (1387ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (360ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (655ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (454ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3927 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (21.9 KB). Loaded Objects now: 4409.
-Memory consumption went from 330.6 MB to 330.6 MB.
-Total: 4.455682 ms (FindLiveObjects: 0.347756 ms CreateObjectMapping: 0.280148 ms MarkObjects: 3.800256 ms  DeleteObjects: 0.026316 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 23.372870 seconds.
-  path: Assets/Scripts/Projectile.cs
-  artifactKey: Guid(9c8a3f069fec6784f97fd324d6391965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Projectile.cs using Guid(9c8a3f069fec6784f97fd324d6391965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d9ebac7194fa8553825a473a214757') in 0.008480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.760732 seconds.
-  path: Assets/Scripts/Health.cs
-  artifactKey: Guid(547c47c52ed534abb99cb73d224dc0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Health.cs using Guid(547c47c52ed534abb99cb73d224dc0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b785834375be2f7fedad89f0a1894b79') in 0.002052 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003572 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.329 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1330ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1089ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (505ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (380ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3927 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (21.9 KB). Loaded Objects now: 4411.
-Memory consumption went from 330.9 MB to 330.9 MB.
-Total: 4.016411 ms (FindLiveObjects: 0.324701 ms CreateObjectMapping: 0.242754 ms MarkObjects: 3.424725 ms  DeleteObjects: 0.023020 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003566 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.348 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1349ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1102ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (479ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (356ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3927 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (21.9 KB). Loaded Objects now: 4413.
-Memory consumption went from 331.1 MB to 331.1 MB.
-Total: 4.011445 ms (FindLiveObjects: 0.324853 ms CreateObjectMapping: 0.250966 ms MarkObjects: 3.416232 ms  DeleteObjects: 0.018559 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003712 seconds.
+Registered in 0.004063 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -374,40 +572,152 @@ Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.339 seconds
+- Completed reload, in  1.500 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1340ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (1501ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (1183ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (375ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3930 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (21.9 KB). Loaded Objects now: 4510.
+Memory consumption went from 349.2 MB to 349.2 MB.
+Total: 4.537966 ms (FindLiveObjects: 0.364896 ms CreateObjectMapping: 0.270588 ms MarkObjects: 3.854209 ms  DeleteObjects: 0.047416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003606 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.295 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1296ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1102ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
+			SetupTypeCache (283ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (505ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (488ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3927 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (21.9 KB). Loaded Objects now: 4512.
+Memory consumption went from 349.3 MB to 349.2 MB.
+Total: 4.388831 ms (FindLiveObjects: 0.494675 ms CreateObjectMapping: 0.401163 ms MarkObjects: 3.462962 ms  DeleteObjects: 0.028953 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004370 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jared/Desktop/Unity Projects/UnityGroupProject/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1337ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1098ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (506ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (383ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3927 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (21.9 KB). Loaded Objects now: 4415.
-Memory consumption went from 331.4 MB to 331.3 MB.
-Total: 4.187701 ms (FindLiveObjects: 0.314179 ms CreateObjectMapping: 0.290972 ms MarkObjects: 3.560432 ms  DeleteObjects: 0.021297 ms)
+Unloading 26 unused Assets / (21.9 KB). Loaded Objects now: 4514.
+Memory consumption went from 349.5 MB to 349.5 MB.
+Total: 4.098386 ms (FindLiveObjects: 0.348036 ms CreateObjectMapping: 0.254392 ms MarkObjects: 3.444446 ms  DeleteObjects: 0.050618 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
