@@ -17,3 +17,5 @@ Forest Music: https://www.youtube.com/watch?v=LWWHX6QPfeA
 
 
 Forest: https://pixeljoint.com/pixelart/76346.htm
+
+Slime: https://rvros.itch.io/pixel-art-animated-slime
