@@ -1,9 +1,10 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
-    public float currentHealth { get; private set; }
+    private float currentHealth;
     private Animator anim;
     private bool dead;
 
@@ -12,25 +13,34 @@ public class Health : MonoBehaviour
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
     }
-    public void TakeDamage(float _damage)
-    {
-        currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
 
-        if (currentHealth > 0)
+     private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+
+        if (currentHealth > 1)
         {
-            anim.SetTrigger("hurt");
-            //iframes
+            currentHealth = currentHealth - 1;
+            Debug.Log(currentHealth);
         }
         else
         {
+
             if (!dead)
             {
-                anim.SetTrigger("die");
-                GetComponent<PlayerMovement>().enabled = false;
-                dead = true;
+                if(gameObject.tag == "Enemy" && collision.gameObject.tag == "Fireball" ) {
+                    if(gameObject != null) {    
+                    // Do something  
+                    Destroy(gameObject);
+                    }
+                } else if(gameObject.tag == "Player") {
+                    SceneManager.LoadScene("GameOverScreen");
+                }
+
             }
         }
     }
+
     public void AddHealth(float _value)
     {
         currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);

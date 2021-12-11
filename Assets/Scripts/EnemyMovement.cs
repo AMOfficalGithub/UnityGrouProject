@@ -18,10 +18,8 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-                transform.Translate(Vector2.left * speed * Time.deltaTime);
-        RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, distance);
+        transform.Translate(Vector2.left * speed * Time.deltaTime);
+        RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, 2.0f, LayerMask.GetMask("Ground"));
         
         if(groundInfo.collider == false) {
             if(movingRight == true) {

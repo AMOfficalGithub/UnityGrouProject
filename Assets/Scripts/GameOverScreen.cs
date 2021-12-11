@@ -20,6 +20,7 @@ public class GameOverScreen : MonoBehaviour
     }
 
     public void restartLevel() {
+        Debug.Log("DDD");
         SceneManager.LoadScene("Level1");
     }
 }
